@@ -5,9 +5,34 @@ Project 0 Getting Started
 
 * Xuan Zhu
 * LinkedIn: www.linkedin.com/in/xuan-zhu-4ba736220
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Tested on: Windows 10, Intel Core i7-6700K @ 4.00GHz 64GB, NVIDIA GeForce RTX 3070 Ti 8GB (SIGLAB Computer)
 
-### (TODO: Your README)
+### Compute Capability
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+The GPU used is an NVIDIA GeForce RTX 3070 Ti with **Compute Capability 8.6** (SM 8.6).
+
+### Part 2.1.2: CUDA GL Check
+
+![](images/part-2-1-2.png)
+
+### Part 2.1.3: Nsight Debugging
+
+Conditional breakpoint set at `index == 1234` on line 79 of `kernel.cu`.
+
+![](images/part-2-1-3.png)
+
+### Part 2.1.4: Nsight Systems
+
+![](images/part-2-1-4.png)
+
+### Part 2.1.5: Nsight Compute
+
+Skipped per instructor announcement regarding the known issue with `cuda-gl-check`.
+
+### Part 2.2: WebGL
+
+![](images/WebGL.png)
+
+### Part 2.3: WebGPU
+
+![](images/WebGPU.png)

@@ -13,17 +13,17 @@ The GPU used is an NVIDIA GeForce RTX 3070 Ti with **Compute Capability 8.6** (S
 
 ### Part 2.1.2: CUDA GL Check
 
-![](images/part-2-1-2.png)
+![](images/Part-2-1-2.png)
 
 ### Part 2.1.3: Nsight Debugging
 
 Conditional breakpoint set at `index == 1234` on line 79 of `kernel.cu`.
 
-![](images/part-2-1-3.png)
+![](images/Part-2-1-3.png)
 
 ### Part 2.1.4: Nsight Systems
 
-![](images/part-2-1-4.png)
+![](images/Part-2-1-4.png)
 
 ### Part 2.1.5: Nsight Compute
 

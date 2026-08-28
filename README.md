@@ -27,7 +27,7 @@ Conditional breakpoint set at `index == 1234` on line 79 of `kernel.cu`.
 
 ### Part 2.1.5: Nsight Compute
 
-Skipped per instructor announcement regarding the known issue with `cuda-gl-check`.
+Attempted but blocked by `ERR_NVGPUCTRPERM` — no admin rights on the SIGLAB machine to enable GPU performance counters. Skipped per instructor announcement.
 
 ### Part 2.2: WebGL
 
